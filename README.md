@@ -1,4 +1,4 @@
-# Advanced-DeepLearning-Library
+# DeepLearning-Library-From-Scratch
 Deep Learning library based of deeplearning.ai course (Coursera)
 
 Let us look at all the hyper-parameters and their functionality:
@@ -35,7 +35,7 @@ Let us look at all the hyper-parameters and their functionality:
 9) beta2         -          hyper-parameter of RMSprop-optimization and adam-optimization   
                             specification - a) type   - int
 
-10)A_type        -          Different types of activations requires different types of weight initialization to tackle the problem of vanishing and                                    exploding gradient 
+10) A_type        -          Different types of activations requires different types of weight initialization to tackle the problem of vanishing and exploding gradient 
                             specification - a) type   - string
                                             b) values - "relu" , "xavier" , ""
 
