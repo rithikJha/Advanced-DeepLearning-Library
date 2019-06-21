@@ -1,5 +1,9 @@
-# DeepLearning-Library-From-Scratch
-Deep Learning library based of deeplearning.ai course (Coursera)
+# Deep-Learning-Library-From-Scratch
+deeplearning.ai
+using functions/modules
+will include class later
+will improve/add functionality
+easily understandable
 
 Let us look at all the hyper-parameters and their functionality:
 
