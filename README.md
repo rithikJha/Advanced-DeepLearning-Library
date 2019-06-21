@@ -39,16 +39,16 @@ Let us look at all the hyper-parameters and their functionality:
                             specification - a) type   - string
                                             b) values - "relu" , "xavier" , ""
 
-11)optimizer     -          Type of optimization you want to use !    
+11) optimizer     -          Type of optimization you want to use !    
                             specification - a) type   - string
                                             b) values - "adam" , "momentum" , "rmsprop" , ""
 
 
-12)Reg_type      -          Type of Regularization you want to use !    
+12) Reg_type      -          Type of Regularization you want to use !    
                             specification - a) type   - string
                                             b) values - "l2" , "l1" , ""
 
-11)lambd         -          hyper-parameter for Regularization effect    
+11) lambd         -          hyper-parameter for Regularization effect    
                             specification - a) type   - int
 
 
