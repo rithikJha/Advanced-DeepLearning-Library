@@ -109,6 +109,7 @@ def model(X, Y, layers_dims,activation_list,cost_cache="cel",learning_rate=0.000
             AL,caches = ist.linear_deep_forward(X,parameters,activation_list)                                              # Forward Propagation
             cost = ist.compute_cost(AL,Y,cost_cache,lambd,parameters,Reg_type)                                             # Compute Cost
             grads = ist.linear_deep_backward(AL,Y,caches,activation_list,cost_cache,parameters,lambd,Reg_type)             # Backward Propagation
+            t = t + 1
             parameters, v, s = ini.update_parameters_with_optimizer(parameters, grads, v, s,
                                                                    t, learning_rate, beta1, beta2,optimizer)               # Update Parameters
 
