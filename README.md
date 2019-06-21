@@ -64,7 +64,7 @@ Others default settings are stated below (however you can customize it by passin
 8) beta2 - 0.999
 9) A_type - ""
 10)optimizer - "" (Normal gradient descent)
-11)Reg_type - "" (No regularization)
+11)Reg_type - "" (No regularization
 12)lambd - 0.1
 The above 12 things are customizable but if you don't want to, you can opt-out of passing it as argument 
 
